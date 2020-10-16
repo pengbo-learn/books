@@ -6,6 +6,14 @@ learn compilers, understand:
 - syntax analysis (parser, grammar)
 - semantic analysis (interpreter)
 
+### Mastering Regular Expressions 3rd (Friedl-2006).pdf
+learn to use regular expression, master:
+- character class
+- word boundary
+- quantifier
+- group/backreference
+- lookaround
+
 ### Speech and Language Processing 3rd (Jurafsky-2019).pdf
 learn tasks and history of nlp, include:
 - language models
@@ -15,13 +23,21 @@ learn tasks and history of nlp, include:
 - question answering
 - chabots
 
-### Mastering Regular Expressions 3rd (Friedl-2006).pdf
-learn to use regular expression, master:
-- character class
-- word boundary
-- quantifier
-- group/backreference
-- lookaround
+### Web Scraping with Python (Mitchell-2015).pdf
+learn basic python scraping skills
+- html parsing
+    - headers
+    - cookies
+- forms and logins
+    - browser inspector check name value
+    - requests.post filling form, uploading file, etc
+- javascript
+    - selenium.webdriver handle Ajax(Asynchronous javascript and xml)
+- captcha
+    - Tesseract ocr 
+- quotes
+>
+Fast scraping is a bad practice that places a heavy burden on the web administrator’s servers, can land you in legal trouble, and is the numberone cause of scrapers getting blacklisted. Add delays to your scrapers and let them run overnight. Remember: Being in a rush to write programs or gather data is a sign of bad project management; plan ahead to avoid messes like this in the first place.
 
 ### 编码 隐匿在计算机软硬件背后的语言 (Petzold-2012).pdf
 学习计算机是如何从电路搭建起来的，要点如下
