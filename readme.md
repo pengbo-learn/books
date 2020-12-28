@@ -35,7 +35,7 @@ learn type system, understand:
     - terms indexed by types(system F)
     - types indexed by types(lambda\_{omega})
     - types indexed by terms(lambda P)
-![img](imgs/cube.png)
+![img](imgs/lambda_cube.png)
 
 ### Web Scraping with Python (Mitchell-2015).pdf
 learn basic python scraping skills
