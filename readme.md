@@ -23,6 +23,14 @@ learn tasks and history of nlp, include:
 - question answering
 - chabots
 
+### Types and Programming Languages (Pierce-2002).pdf
+learn type system, understand:
+- lambda calculus 
+- simply typed lambda calculus
+- subtyping
+- polymorphism
+- type operator(high-order system)
+
 ### Web Scraping with Python (Mitchell-2015).pdf
 learn basic python scraping skills
 - html parsing
