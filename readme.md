@@ -28,8 +28,14 @@ learn type system, understand:
 - lambda calculus 
 - simply typed lambda calculus
 - subtyping
-- polymorphism
+- polymorphism(system F, 2nd order lambda calculus)
 - type operator(high-order system)
+- lambda cube
+    - terms indexed by terms(simply typed lambda calculus)
+    - terms indexed by types(system F)
+    - types indexed by types(lambda\_{omega})
+    - types indexed by terms(lambda P)
+![img](imgs/cube.png)
 
 ### Web Scraping with Python (Mitchell-2015).pdf
 learn basic python scraping skills
