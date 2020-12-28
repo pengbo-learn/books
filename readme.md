@@ -32,9 +32,9 @@ learn type system, understand:
 - type operator(high-order system)
 - lambda cube
     - terms indexed by terms(simply typed lambda calculus)
-    - terms indexed by types(system F)
+    - terms indexed by types(F system)
     - types indexed by types(lambda\_{omega})
-    - types indexed by terms(lambda P)
+    - types indexed by terms(LF system)
 ![img](imgs/lambda_cube.png)
 
 ### Web Scraping with Python (Mitchell-2015).pdf
