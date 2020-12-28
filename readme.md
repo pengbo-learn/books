@@ -31,7 +31,7 @@ learn type system, understand:
 - polymorphism(system F, 2nd order lambda calculus)
 - type operator(high-order system)
 - lambda cube
-    - terms indexed by terms(simply typed lambda calculus)
+    - terms indexed by terms(simply typed lambda calculus)\
       lambda x:X.t
     - terms indexed by types(F system)
       lambda X. lambda x:X. t
