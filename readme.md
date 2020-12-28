@@ -33,11 +33,11 @@ learn type system, understand:
 - lambda cube
     - terms indexed by terms(simply typed lambda calculus)\
       lambda x:X.t
-    - terms indexed by types(F system)
+    - terms indexed by types(F system)\
       lambda X. lambda x:X. t
-    - types indexed by types(lambda\_{omega})
+    - types indexed by types(lambda\_{omega})\
       lambda X. X -> X
-    - types indexed by terms(LF system)
+    - types indexed by terms(LF system)\
       lambda n. FlostListn
 ![img](imgs/lambda_cube.png)
 
