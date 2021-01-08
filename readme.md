@@ -1,5 +1,14 @@
 ## books
 
+### An Introduction to Proof Theory (Buss-1998).pdf
+learn logic and proof system:
+- classical/intuitionistic/minimal logic
+- first-order logic
+- Hilbert-style system
+- Gentzen-style system
+    - sequent calculus
+    - natural deduction
+
 ### Compilers - Principles, Techniques and Tools 2nd (Aho-2007).pdf
 learn compilers, understand: 
 - lexical analysis (tokenizer, NFA, DFA, regular expression)
