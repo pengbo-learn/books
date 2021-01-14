@@ -3,7 +3,7 @@
 ### An Introduction to Proof Theory (Buss-1998).pdf
 learn logic and proof system:
 - classical/intuitionistic/minimal logic
-- first-order logic
+- first-order/predicate logic
 - Hilbert-style system
 - Gentzen-style system
     - sequent calculus
