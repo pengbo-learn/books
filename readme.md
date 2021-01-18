@@ -45,7 +45,7 @@ learn pogress of the mechanization of mathematics:
 - Russell(1872-1970)
     - create paradox from Frege's logic, write Principia Mathematica
 - Hilbert(1862-1943)
-    - program
+    - program\
         he would first reduce mathematics to logic, using formal languages, and then reduce logic to computation.
     - Entscheidungsproblem
         whether there exists a decision algorithm such that:
