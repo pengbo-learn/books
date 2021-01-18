@@ -70,18 +70,16 @@ learn pogress of the mechanization of mathematics:
 - Gödel(1906-1978)
     - incompleteness theorem\
         Whatever system of axioms one writes down in an attempt to axiomatize the truths about the natural numbers, either some false statement will be proved from the axioms, or some true statement will not be proved.
-- Skolem function
-    - eliminate "there exists"
-- resolution\
-    extends modus ponens(if p then q + p -> q, ie, p + -p|q -> q), p|r + -p|q -> r|q\
-    The basic paradigm for automated deduction then was born: Start with
-the axioms and negated goal. Perform resolutions (using unification) until a
-contradiction is reached, or until you run out of time or memory. The modern
-era in automated deduction could be said to have begun when this paradigm was in place
-- demodulation
-    The use of a set of oriented equations to rewrite subterms of a given term is called “demodulation” in the automated theorem proving community
+- skill
+    - Skolem function
+        - eliminate "there exists"
+    - resolution
+        - extends modus ponens(if p then q + p -> q, ie, p + -p|q -> q), p|r + -p|q -> r|q\
+        - The basic paradigm for automated deduction then was born: Start with the axioms and negated goal. Perform resolutions (using unification) until a contradiction is reached, or until you run out of time or memory. The modern era in automated deduction could be said to have begun when this paradigm was in place
+    - demodulation
+        - The use of a set of oriented equations to rewrite subterms of a given term is called “demodulation” in the automated theorem proving community
 - overall
-    - calculation vs logical inference
+    - calculation vs logical inference\
         In fact, typically a mathematical proof consists of some parts that are calculations, and some parts that are logical inferences. Of course, it is possible to recast calculations as logical proofs, and it is possible to recast logical proofs as calculations. But there is an intuitive distinction: a calculation proceeds in a straightforward manner, one step after another, applying obvious rules at each step, until the answer is obtained. While performing a calculation, one needs to be careful, but one does not need to be a genius, once one has figured out what calculation to make. It is “merely a calculation.” When finding a proof, one needs insight, experience, intelligence–even genius–to succeed, because the search space is too large for a systematic search to succeed.
     - on the whole the mechanization of computation has progressed much further than the mechanization of proof.
     - The present power of automated theorem provers has yielded results only in theories based on equality and a few operations or in other very simple theories
