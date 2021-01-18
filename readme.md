@@ -56,8 +56,8 @@ learn pogress of the mechanization of mathematics:
     - The results of Turing, Church, and Gödel are commonly called “negative” results in that they show the impossibility of a complete reduction of mathematics or logic to computation. Hilbert’s program was a hopeless pipe dream.
 - Turing(1912-1954)
     - Turing machine\
-        He argued that if any machine could perform a computation, then some Turing machine could perform it. The argument focuses on the assertion that any machine’s operations could be simulated, one step at a time, by certain simple operations, and that Turing machines were capable of those simple operations. \
-        there exist problems that cannot be solved by any algorithm. The most well-known of these is the halting problem–there exists no Turing machine that takes as inputs a Turing machine M and an input x for M, and determines correctly whether M halts on input x.
+        He argued that if any machine could perform a computation, then some Turing machine could perform it. The argument focuses on the assertion that any machine’s operations could be simulated, one step at a time, by certain simple operations, and that Turing machines were capable of those simple operations. 
+    - there exist problems that cannot be solved by any algorithm. The most well-known of these is the halting problem–there exists no Turing machine that takes as inputs a Turing machine M and an input x for M, and determines correctly whether M halts on input x.
     - These two papers of Turing lie near the roots of the subjects today known as automated deduction and artificial intelligence.
 - Church(1903-1995)
     - lambda calculus\
@@ -74,7 +74,7 @@ learn pogress of the mechanization of mathematics:
     - Skolem function
         - eliminate "there exists"
     - resolution
-        - extends modus ponens(if p then q + p -> q, ie, p + -p|q -> q), p|r + -p|q -> r|q\
+        - extends modus ponens(if p then q + p -> q, ie, p + -p|q -> q), p|r + -p|q -> r|q
         - The basic paradigm for automated deduction then was born: Start with the axioms and negated goal. Perform resolutions (using unification) until a contradiction is reached, or until you run out of time or memory. The modern era in automated deduction could be said to have begun when this paradigm was in place
     - demodulation
         - The use of a set of oriented equations to rewrite subterms of a given term is called “demodulation” in the automated theorem proving community
