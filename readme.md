@@ -52,7 +52,7 @@ learn pogress of the mechanization of mathematics:
         - It takes two inputs: a finite set of axioms, and a conjecture.
         - It computes for a finite time and outputs either a proof of the conjecture from the axioms, or “no proof exists”.
         - The result is always correct.
-        Since a first-order theory generally has many models, can we decide (given a theory) which formulas are true in all the models? It also led directly to the formulation of the completeness problem: Are the formulas true in all the models exactly those that have proofs from the axioms? The former problem was solved by Turing and Church, the latter by G ̈odel, both within a few years of the publication of Hilbert-Ackermann.
+    - Since a first-order theory generally has many models, can we decide (given a theory) which formulas are true in all the models? It also led directly to the formulation of the completeness problem: Are the formulas true in all the models exactly those that have proofs from the axioms? The former problem was solved by Turing and Church, the latter by G ̈odel, both within a few years of the publication of Hilbert-Ackermann.
     - The results of Turing, Church, and Gödel are commonly called “negative” results in that they show the impossibility of a complete reduction of mathematics or logic to computation. Hilbert’s program was a hopeless pipe dream.
 - Turing(1912-1954)
     - Turing machine\
