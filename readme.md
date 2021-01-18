@@ -46,8 +46,7 @@ learn pogress of the mechanization of mathematics:
     - create paradox from Frege's logic, write Principia Mathematica
 - Hilbert(1862-1943)
     - program
-        >
-        he would first reduce mathematics to logic, using formal languages, and then reduce logic to computation.
+        >he would first reduce mathematics to logic, using formal languages, and then reduce logic to computation.
     - Entscheidungsproblem
         whether there exists a decision algorithm such that:
         - It takes two inputs: a finite set of axioms, and a conjecture.
