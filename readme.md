@@ -32,6 +32,66 @@ learn tasks and history of nlp, include:
 - question answering
 - chabots
 
+### The Mechanization of Mathematics (Beeson-2004).pdf
+learn pogress of the mechanization of mathematics:
+- Pascal(1623-1662)
+    - built a machine that could add and subtract
+- Leibniz(1646-1716)
+    - first machine with all four arithmetic capabilities
+- Boole(1815-1864)
+    - Boolean algebra
+- Frege(1848-1925)
+    - create modern logic including "for all", "there exists"
+- Russell(1872-1970)
+    - create paradox from Frege's logic, write Principia Mathematica
+- Hilbert(1862-1943)
+    - program
+        >
+        he would first reduce mathematics to logic, using formal languages, and then reduce logic to computation.
+    - Entscheidungsproblem
+        whether there exists a decision algorithm such that:
+        - It takes two inputs: a finite set of axioms, and a conjecture.
+        - It computes for a finite time and outputs either a proof of the conjecture from the axioms, or “no proof exists”.
+        - The result is always correct.
+        Since a first-order theory generally has many models, can we decide (given a theory) which formulas are true in all the models? It also led directly to the formulation of the completeness problem: Are the formulas true in all the models exactly those that have proofs from the axioms? The former problem was solved by Turing and Church, the latter by G ̈odel, both within a few years of the publication of Hilbert-Ackermann.
+    - The results of Turing, Church, and Gödel are commonly called “negative” results in that they show the impossibility of a complete reduction of mathematics or logic to computation. Hilbert’s program was a hopeless pipe dream.
+- Turing(1912-1954)
+    - Turing machine
+        > 
+        He argued that if any machine could perform a computation, then some Turing machine could perform it. The argument focuses on the assertion that any machine’s operations could be simulated, one step at a time, by certain simple operations, and that Turing machines were capable of those simple operations. 
+        >
+        there exist problems that cannot be solved by any algorithm. The most well-known of these is the halting problem–there exists no Turing machine that takes as inputs a Turing machine M and an input x for M, and determines correctly whether M halts on input x.
+    - These two papers of Turing lie near the roots of the subjects today known as automated deduction and artificial intelligence.
+- Church(1903-1995)
+    - lambda calculus
+        Church invented the lambda-calculus (often written λ-calculus) and used it to give a definition of algorithm different from Turing’s, and hence an independent solution of the Entscheidungsproblem
+    - Arithemtic is undecidable
+        Since Peano’s axioms are not first-order, the Entscheidungsproblem does not directly apply to them, and one can ask whether there could be an algorithm that takes a first-order statement about the natural numbers as input, and correctly outputs “true” or “false”.
+        Church showed that, nevertheless, there is no such algorithm.
+    - equivalence
+        Church’s student Kleene proved the equivalence of the Turing-machine and the λ-calculus definitions of algorithm in his Ph.D. thesis.
+- Gödel(1906-1978)
+    - incompleteness theorem
+        Whatever system of axioms one writes down in an attempt to axiomatize the truths about the natural numbers, either some false statement will be proved from the axioms, or some true statement will not be proved.
+- Skolem function
+    - eliminate "there exists"
+- resolution
+    extends modus ponens(if p then q + p -> q, ie, p + -p|q -> q), p|r + -p|q -> r|q
+    The basic paradigm for automated deduction then was born: Start with
+the axioms and negated goal. Perform resolutions (using unification) until a
+contradiction is reached, or until you run out of time or memory. The modern
+era in automated deduction could be said to have begun when this paradigm was in place
+- demodulation
+    The use of a set of oriented equations to rewrite subterms of a given term is called “demodulation” in the automated theorem proving community
+- overall
+    - calculation vs logical inference
+        In fact, typically a mathematical proof consists of some parts that are calculations, and some parts that are logical inferences. Of course, it is possible to recast calculations as logical proofs, and it is possible to recast logical proofs as calculations. But there is an intuitive distinction: a calculation proceeds in a straightforward manner, one step after another, applying obvious rules at each step, until the answer is obtained. While performing a calculation, one needs to be careful, but one does not need to be a genius, once one has figured out what calculation to make. It is “merely a calculation.” When finding a proof, one needs insight, experience, intelligence–even genius–to succeed, because the search space is too large for a systematic search to succeed.
+    - on the whole the mechanization of computation has progressed much further than the mechanization of proof.
+    - The present power of automated theorem provers has yielded results only in theories based on equality and a few operations or in other very simple theories
+    - Tarski's elimination of quantifiers: reduction of algebra with quantifiers to computation
+    - a decision procedure has been found for a class including what are usually called combinatorial identities
+
+
 ### Types and Programming Languages (Pierce-2002).pdf
 learn type system, understand:
 - lambda calculus 
