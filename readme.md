@@ -47,7 +47,7 @@ learn pogress of the mechanization of mathematics:
 - Hilbert(1862-1943)
     - program\
         he would first reduce mathematics to logic, using formal languages, and then reduce logic to computation.
-    - Entscheidungsproblem
+    - Entscheidungsproblem\
         whether there exists a decision algorithm such that:
         - It takes two inputs: a finite set of axioms, and a conjecture.
         - It computes for a finite time and outputs either a proof of the conjecture from the axioms, or “no proof exists”.
@@ -55,25 +55,25 @@ learn pogress of the mechanization of mathematics:
         Since a first-order theory generally has many models, can we decide (given a theory) which formulas are true in all the models? It also led directly to the formulation of the completeness problem: Are the formulas true in all the models exactly those that have proofs from the axioms? The former problem was solved by Turing and Church, the latter by G ̈odel, both within a few years of the publication of Hilbert-Ackermann.
     - The results of Turing, Church, and Gödel are commonly called “negative” results in that they show the impossibility of a complete reduction of mathematics or logic to computation. Hilbert’s program was a hopeless pipe dream.
 - Turing(1912-1954)
-    - Turing machine
-        He argued that if any machine could perform a computation, then some Turing machine could perform it. The argument focuses on the assertion that any machine’s operations could be simulated, one step at a time, by certain simple operations, and that Turing machines were capable of those simple operations. 
+    - Turing machine\
+        He argued that if any machine could perform a computation, then some Turing machine could perform it. The argument focuses on the assertion that any machine’s operations could be simulated, one step at a time, by certain simple operations, and that Turing machines were capable of those simple operations. \
         there exist problems that cannot be solved by any algorithm. The most well-known of these is the halting problem–there exists no Turing machine that takes as inputs a Turing machine M and an input x for M, and determines correctly whether M halts on input x.
     - These two papers of Turing lie near the roots of the subjects today known as automated deduction and artificial intelligence.
 - Church(1903-1995)
-    - lambda calculus
+    - lambda calculus\
         Church invented the lambda-calculus (often written λ-calculus) and used it to give a definition of algorithm different from Turing’s, and hence an independent solution of the Entscheidungsproblem
     - Arithemtic is undecidable
         Since Peano’s axioms are not first-order, the Entscheidungsproblem does not directly apply to them, and one can ask whether there could be an algorithm that takes a first-order statement about the natural numbers as input, and correctly outputs “true” or “false”.
         Church showed that, nevertheless, there is no such algorithm.
-    - equivalence
+    - equivalence\
         Church’s student Kleene proved the equivalence of the Turing-machine and the λ-calculus definitions of algorithm in his Ph.D. thesis.
 - Gödel(1906-1978)
-    - incompleteness theorem
+    - incompleteness theorem\
         Whatever system of axioms one writes down in an attempt to axiomatize the truths about the natural numbers, either some false statement will be proved from the axioms, or some true statement will not be proved.
 - Skolem function
     - eliminate "there exists"
-- resolution
-    extends modus ponens(if p then q + p -> q, ie, p + -p|q -> q), p|r + -p|q -> r|q
+- resolution\
+    extends modus ponens(if p then q + p -> q, ie, p + -p|q -> q), p|r + -p|q -> r|q\
     The basic paradigm for automated deduction then was born: Start with
 the axioms and negated goal. Perform resolutions (using unification) until a
 contradiction is reached, or until you run out of time or memory. The modern
