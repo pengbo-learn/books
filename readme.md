@@ -32,6 +32,16 @@ learn tasks and history of nlp, include:
 - question answering
 - chabots
 
+### The Entscheidungsproblem and Alan Turing (Brodkorb-2019).pdf
+learn Turing's solution the Entscheidungsproblem:
+- basics
+    - Turing machine consists of a finite list of states, a finite list of symbols, and a finite list of instructions.
+    - A computable function, is any function that yields the same output no matter how many times you run the algorithm, for a given input. Furthermore, the domain of a total computable function is the natural numbers.
+    - A partial computable function is any function that is not necessarily defined for every input, provided that there exists an algorithm for that function.
+- keys
+    - We can list all the partial computable functions because we can list the corresponding Description Numbers of the Turing machines.
+    - We cannot list all total computable functions.
+
 ### The Mechanization of Mathematics (Beeson-2004).pdf
 learn pogress of the mechanization of mathematics:
 - Pascal(1623-1662)
