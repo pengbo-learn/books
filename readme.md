@@ -42,7 +42,7 @@ learn Turing's points.
     - 4 basic qualities of formal system: Independence, Consistency, Completeness, Decidability
     - Gödel's 1929 doctoral thesis showed the first-order predicate logic was complete.
     > 
-    Hilbert's final years were spent in loneliness and senility. He died in 1943. On Hilbert's tombstone in Gottingen are the words 
+    Hilbert's final years were spent in loneliness and senility. He died in 1943. On Hilbert's tombstone in Gottingen are the words \
     Wir mussen wissen.\
     Wir werden wissen.\
     We must know. We shall know. Except that now when people read Hilbert's words, 
