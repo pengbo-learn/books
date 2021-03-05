@@ -43,17 +43,15 @@ learn Turing's points.
     - Gödel's 1929 doctoral thesis showed the first-order predicate logic was complete.
     > 
     Hilbert's final years were spent in loneliness and senility. He died in 1943. On Hilbert's tombstone in Gottingen are the words \
-    &nbsp;&nbsp;&nbsp;&nbsp;Wir mussen wissen.\
-    &nbsp;&nbsp;&nbsp;&nbsp;Wir werden wissen.\
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wir mussen wissen.\
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wir werden wissen.\
     We must know. We shall know. Except that now when people read Hilbert's words, 
-    all they can think about is Godel and Church and Turing, incompleteness and undecidability
+    all they can think about is Gödel and Church and Turing, incompleteness and undecidability
 - Turing
     - Turing machine + Turing test
-    - Turing machines are countable.
-    - The computable numbers are therefore countable.
     - The Universal Turing Machine(UTM).    
-    - Turing machines are not enumerable.
-    - There is no general method to determine a Turing machine is circular or not.
+    - Turing machines are countable. The computable numbers are therefore countable.
+    - Turing machines are not enumerable. There is no general method to determine a Turing machine is circular or not.
 
 ### The Entscheidungsproblem and Alan Turing (Brodkorb-2019).pdf
 learn Turing's solution the Entscheidungsproblem:
