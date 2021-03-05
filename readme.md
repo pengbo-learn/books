@@ -32,6 +32,29 @@ learn tasks and history of nlp, include:
 - question answering
 - chabots
 
+### The Annotated Turing (Petzold-2008).pdf
+learn Turing's points.
+- background
+    - There does not exist a 1-1 correspondence between natural numbers and real numbers.
+    - There exists a 1-1 correspondence between all subsets of natural numbers and real numbers.
+    - There exists a 1-1 correspondence between real numbers on 1 dim line and 2 dim plane.
+    - Provability is a syntactic concept, however, truth is a semantic concept.
+    - 4 basic qualities of formal system: Independence, Consistency, Completeness, Decidability
+    - Gödel's 1929 doctoral thesis showed the first-order predicate logic was complete.
+    > 
+    Hilbert's final years were spent in loneliness and senility. He died in 1943. On Hilbert's tombstone in Gottingen are the words 
+    Wir mussen wissen.\
+    Wir werden wissen.\
+    We must know. We shall know. Except that now when people read Hilbert's words, 
+    all they can think about is Godel and Church and Turing, incompleteness and undecidability
+- Turing
+    - Turing machine + Turing test
+    - Turing machines are countable.
+    - The computable numbers are therefore countable.
+    - The Universal Turing Machine(UTM).    
+    - Turing machines are not enumerable.
+    - There is no general method to determine a Turing machine is circular or not.
+
 ### The Entscheidungsproblem and Alan Turing (Brodkorb-2019).pdf
 learn Turing's solution the Entscheidungsproblem:
 - basics
