@@ -43,8 +43,8 @@ learn Turing's points.
     - Gödel's 1929 doctoral thesis showed the first-order predicate logic was complete.
     > 
     Hilbert's final years were spent in loneliness and senility. He died in 1943. On Hilbert's tombstone in Gottingen are the words \
-        Wir mussen wissen.\
-        Wir werden wissen.\
+    $~~~~~$Wir mussen wissen.\
+    $~~~~~$Wir werden wissen.\
     We must know. We shall know. Except that now when people read Hilbert's words, 
     all they can think about is Godel and Church and Turing, incompleteness and undecidability
 - Turing
