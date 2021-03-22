@@ -47,11 +47,18 @@ learn Turing's points.
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wir werden wissen.\
     We must know. We shall know. Except that now when people read Hilbert's words, 
     all they can think about is Gödel and Church and Turing, incompleteness and undecidability
+- logic
+    - Propositional (or sentential) logic deals with entire declarative propositions (or sentences) that have a truth value
+    >
+    The big problem with propositional logic is that we're dealing with entire declarative sentences, and we can't relate the internals of different sentences to each other.
 - Turing
     - Turing machine + Turing test
     - The Universal Turing Machine(UTM).    
     - Turing machines are countable. The computable numbers are therefore countable.
-    - Turing machines are not enumerable. There is no general method to determine a Turing machine is circular or not.
+    - Turing machines are not enumerable. There is no general method to determine a Turing machine is circular or not. There is no general method to determine a Turing machine whether prints a given symbol.
+    >
+    By implication, there can be no computer program that will determine the ultimate fate of other computer programs.
+
 
 ### The Entscheidungsproblem and Alan Turing (Brodkorb-2019).pdf
 learn Turing's solution the Entscheidungsproblem:
