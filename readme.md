@@ -54,8 +54,8 @@ learn Turing's points.
 - Turing
     - Turing machine + Turing test
     - The Universal Turing Machine(UTM).    
-    - Turing machines are countable. The computable numbers are therefore countable.
-    - Turing machines are not enumerable. There is no general method to determine a Turing machine is circular or not. There is no general method to determine a Turing machine whether prints a given symbol.
+    - Turing machines are countable/enumerable. The computable numbers are therefore countable/enumerable.
+    - There is no general method to determine a Turing machine is circular or not. There is no general method to determine a Turing machine whether prints a given symbol.
     >
     By implication, there can be no computer program that will determine the ultimate fate of other computer programs.
 
